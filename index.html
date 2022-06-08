@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title> Decodificador de texto</title>
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="Logo da alura, letra a">         
+        </header>
+
+        <main class="main">
+            <section>
+        
+                <textarea class="input-texto"  cols="30" rows="6" placeholder="Digite seu texto:"></textarea>
+        
+                <div>
+                    <h6 class="informacao"> ✋ Apenas letras maiúsculas e minúsculas</h6>
+                </div>
+                <div class="botoes">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        🔒 Criptografar
+                    </button>
+            
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        🔓 Descriptografar
+                    </button>
+
+                    <button class="copiar" onclick="btnCopiar()">
+                        🖎 Copiar
+                    </button>
+            
+                </div>
+            </section>
+        
+            <section>
+                <textarea id="texto" class="mensagem" cols="17" rows="10"></textarea>   
+            </section>
+        
+            </main>
+            <script src="script.js"></script>
+
+            <footer>
+                <a href="https:www.linkedin.com/in/priscilla-florencio-3379521b8">
+                    <image src="linkedin.png" alt="Logo do linkedin"></image>     
+                </a>
+                <a href="https://github.com/PriscillaBF"> 
+                    <image src="github.png" alt="Logo do github"></image>
+                </a>
+                <p>&copy Priscilla Florencio 2022</p>           
+            </footer>
+        
+        </body>
+        </html>

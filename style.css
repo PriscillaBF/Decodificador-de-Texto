@@ -1,0 +1,121 @@
+* {
+    font-family: "inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.main {
+    display: flex;
+    margin-left: 88px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize:none;
+    background-color:transparent;
+    border: none;
+    
+}
+
+.input-texto {
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.informacao {
+    font-size: 30px;
+}
+
+.mensagem {
+    position: center; 
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 10px;
+    background-image: url("cadeado.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    
+}
+
+
+.informacao {
+    font-size: 12px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.encriptar, .desencriptar, .copiar {
+    width:40%;
+    padding: 15px 0 ;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    background-color: rgb(7, 28, 63);
+    color: white;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+  background: #437ce7;
+  transform: scale(1.2);
+  font-size: 18px;
+}
+
+.desencriptar {
+    margin-left: 20px;
+}
+
+.desencriptar:hover {
+    background: #437ce7;
+    transform: scale(1.2);
+    font-size: 18px;
+
+}
+
+.copiar {
+    margin-left: 20px;
+}
+
+.copiar:hover {
+    background: #437ce7;
+    transform: scale(1.2);
+    font-size: 18px;
+}
+
+
+footer  img { 
+    flex-direction: row;
+    padding: 20px 5px;
+    width: 30px;
+    border-radius: 100%;
+    padding-top: 20px ;
+    margin:  auto;
+
+
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 100%;
+    text-align: center;
+    margin: auto;
+      
+}
